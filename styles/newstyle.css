@@ -1,0 +1,527 @@
+#menugallery{
+	background-color:red;
+	color:black;
+	border-radius: 25px;
+}
+/* body style*/	
+	body{
+	background-color:#ffffe6;
+	background-size : cover;
+	padding:0px;
+	margin:0;
+	} 
+
+/* header box*/
+div.menu
+{
+	height:170px;
+	border:0px;
+	padding:0px;
+	margin:0px;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	position:relative;
+	background-color:none;
+	background-image:url("../images/gold.jpg");
+  
+}
+
+/* signIn/SignOut*/	
+div.menu1
+{
+  border:0px;
+  padding: 5px;
+  position:absolute;
+  right:20px;
+  top:20px;
+  margin:auto;
+  
+}
+/* logo*/
+.logo{
+	display: block;
+	margin:20px 20px 20px 20px;
+	width: 200px;
+	height: 124px;
+	position:absolute;
+	left:0px;
+	border:3px outset red;
+}
+
+
+
+/* search form*/
+.search{
+	
+	padding:0px;
+	float:left;
+	margin:10px;
+	border:2px red solid;
+	border-radius:25px;
+}
+
+/* search box*/
+.searchBox
+{
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	margin:0px;
+	border:0px;
+	border-bottom-right-radius:25px;
+	border-top-right-radius:25px;
+	float:right;
+}
+
+/* search btn*/
+.searchBtn{
+	
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	margin:0px;
+	right:0px;
+	border:0px;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	background-color:white;
+}
+/* main menu bar*/
+div.menu2
+{
+  border:2px solid red;
+  padding:2px;
+  right:20px;
+  bottom:20px;
+  border-radius: 25px;
+  position:absolute;
+  background-color: black;
+	
+  
+}
+
+/* main menu bar ul*/
+ul.menu2
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  float:left;
+}
+
+
+
+/* sign In/sign Out ul*/
+ul.menu1
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  float:left;
+  
+}
+
+/* book now button*/
+.book
+{	
+	border:3px outset red;
+	font-size:20px;
+	background-color:black;
+	color:white;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 16px;
+}
+	
+/* main menu bar list*/
+li.menu1{
+	float: left;
+}
+/* sign In/sign Out li*/
+li.menu2{
+	float: left;
+	
+}
+
+/* main menu bar list hyperlinks*/
+
+li a.list{
+	color:white;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 20px;
+	
+}
+
+/* sign In/sign Out list hyperlinks*/
+li a.sign{
+	color:black;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 16px;
+}
+
+/*main menu list link mouse move*/
+.list:hover{
+	background-color:red;
+	color:black;
+	border-radius: 25px;
+}
+
+/* sign In/sign Out list link mouse move */
+.sign:hover{
+	background-color:red;
+	color:white;
+	border:3px solid black;
+}
+
+/* book button  mouse move */
+
+.book:hover{
+	background-color:red;
+	color:black;
+	border:3px solid black;
+}
+
+/* hr */
+hr{	
+	border:1px solid black;
+	clear:both;
+}
+
+/*dropdown list booking */
+.dropdownTable{
+	width:100%;
+	
+}
+
+
+.listOfdrop{
+	background-color:#4db8ff;
+	padding:15px;
+	font-size:14px;
+	color:black;
+	border-radius:5px;
+	width:200px;
+	
+}
+
+/*radio button table*/
+.radiobtnTable{
+	width:50%;
+}
+.groomBridetable{
+	width:70%;
+	text-align:left;
+	position:relative;
+	left:100px;
+}
+.forminput{
+	width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid black;
+  background: #f1f1f1;
+}
+.forminputupdate{
+	width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid black;
+  background: #f1f1f1;
+}
+.forminputupdatenic{
+	width: 40%;
+	position:absolute;
+	left:5%;
+	top:30%;
+  padding:15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid black;
+  background: #f1f1f1;
+	
+}
+.confirmbtn{
+	position:relative;
+	left:30%;
+	width:200px;
+	padding:15px;
+	border-radius:5px;
+	background-color:#003399;
+	color:white;
+}
+.deleteserchbtn{
+	position:relative;
+	left:-95px;
+	width:200px;
+	padding:15px;
+	border-radius:5px;
+	background-color:#003399;
+	color:white;
+}
+.availability{
+	position:absolute;
+	left:80%;
+	top:50%;
+	padding:15px;
+	border-radius:5px;
+	background-color:#003399;
+	color:white;
+}
+
+/* footer */
+footer
+{
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	background-color:none;
+	background-image:url("../images/gold.jpg");
+}
+
+/*QR code */
+.icon1{
+	display:block;
+	float:left;	
+	margin:30px 10px 10px 20px;
+	width:200px;
+	height:130px;
+	border:0px;
+}
+
+/* contact */
+div.contact{
+
+	float:left;	
+	height:150px;
+	margin:10px 0px 0px 100px;
+	border:0px;
+}
+
+/* address */
+div.address{
+
+	float:right;	
+	height:150px;
+	margin:10px 100px 0px 0px;
+	border:0px;
+	
+}
+
+/* logo */
+.icon2{
+	float:right;	
+	display:block;
+	margin:30px 20px 10px 10px;
+	width:200px;
+	height:130px;
+	border:0px;
+}
+
+/* social media icon box */
+div.socialmedia
+{	
+	border:0px;
+	margin:10px;
+	clear:both;
+	text-align:center;
+	padding:5px;
+}
+
+/* facebook link */
+.facebook
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style: outset;
+	border-color:black;
+}
+
+/* twiter link */
+.twiter
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* insta link */
+.insta
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* google link */
+.google
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* social media icon ul */
+ul.footer1
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0px;
+  display:inline-block;
+
+}
+
+/* social media icon li */
+li.footer1{
+	
+	float:left;
+	padding:10px;
+
+}
+
+
+
+
+/*gallary page */
+* {
+  box-sizing: border-box;
+}
+
+.bodygallary{
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  left:20%;
+  display: none;
+  width:70%;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: yellow;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+} 
+/* end of gallary*/
+
+.reservationtable{
+	width:100%;
+	 border-collapse: collapse;
+	
+}
+.reservationtr:nth-child(even){
+	background-color: #f2f2f2
+}
+.reservationth{
+	 background-color: #04AA6D;
+	 color: white;
+	 text-align: left;
+	 padding: 8px;
+}
+.reservationtd{
+	text-align: left;
+	padding: 8px;
+
+}
+/* update page*/
+.deletesearchtab{
+	position:absolute;
+	left:70%;
+	top:60%;
+	
+	
+}
+.vl{
+	position: absolute;
+	border-left: 6px solid red;
+	height: 600px;
+	left: 60%;
+	top: 0%;
+}
+.searchdetailsdisplay{
+	height:3px;
+	position: absolute;
+	padding:4px;
+	width:350px;
+	background-color:lightblue;
+	padding:15px;
+	border: solid black;
+	left:-70px;
+ 
+	
+}
+.searchnic{
+	position:absolute;
+	width:350px;
+	height:40px;
+	left:-85px;
+}
+
+.nextbtn
+{
+	width:200px;
+	text-align:center;
+	background-color:#070768;
+	border:1px outset white;
+	padding:5px;
+	color:white;
+	text-decoration:none;
+	float:right;
+	margin:5px;
+}

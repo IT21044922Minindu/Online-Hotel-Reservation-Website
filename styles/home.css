@@ -1,0 +1,548 @@
+#menuhome{
+	background-color:red;
+	color:black;
+	border-radius: 25px;
+}
+
+/* body style*/		
+body{
+	background-color:white;
+	background-size : cover;
+	padding:0px;
+	margin:0;
+	}
+
+/* header box*/
+div.menu
+{
+	height:170px;
+	border:0px;
+	padding:0px;
+	margin:0px;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	position:relative;
+	background-color:none;
+	background-image:url("../images/gold.jpg");
+}
+
+/* signIn/SignOut*/	
+div.menu1
+{
+  border:0px;
+  padding: 5px;
+  position:absolute;
+  right:20px;
+  top:20px;
+  margin:auto;
+  
+}
+/* logo*/
+.logo{
+	display: block;
+	margin:20px 20px 20px 20px;
+	width: 200px;
+	height: 124px;
+	position:absolute;
+	left:0px;
+	border:3px outset red;
+}
+
+/* search form*/
+.search{
+	
+	padding:0px;
+	float:left;
+	margin:10px;
+	border:1px red solid;
+	border-radius:25px;
+}
+
+/* search box*/
+.searchBox
+{
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	margin:0px;
+	border:0px;
+	border-bottom-right-radius:25px;
+	border-top-right-radius:25px;
+	float:right;
+}
+
+/* search btn*/
+.searchBtn{
+	
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	margin:0px;
+	right:0px;
+	border:0px;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	background-color:white;
+}
+/* main menu bar*/
+div.menu2
+{
+  border:1px solid red;
+  padding:2px;
+  right:20px;
+  bottom:20px;
+  border-radius: 25px;
+  position:absolute;
+  background-color: black;
+	
+  
+}
+
+/* main menu bar ul*/
+ul.menu2
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  float:left;
+}
+
+
+
+/* sign In/sign Out ul*/
+ul.menu1
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  float:left;
+  
+}
+
+/* book now button*/
+.book
+{	
+	border:2px outset red;
+	font-size:20px;
+	background-color:black;
+	color:white;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 16px;
+}
+	
+/* main menu bar list*/
+li.menu1{
+	float: left;
+}
+/* sign In/sign Out li*/
+li.menu2{
+	float: left;
+	
+}
+
+/* main menu bar list hyperlinks*/
+
+li a.list{
+	color:white;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 20px;
+	
+}
+
+/* sign In/sign Out list hyperlinks*/
+li a.sign{
+	color:black;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 16px;
+}
+
+/*main menu list link mouse move*/
+.list:hover{
+	background-color:red;
+	color:black;
+	border-radius: 25px;
+}
+
+/* sign In/sign Out list link mouse move */
+.sign:hover{
+	background-color:red;
+	color:white;
+	border:3px solid black;
+}
+
+/* book button  mouse move */
+
+.book:hover{
+	background-color:red;
+	color:black;
+	border:3px solid black;
+}
+
+/* hr */
+hr{	
+	border:2px solid black;
+	
+}
+
+/*Title*/
+h1	{
+	font-size: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+* {box-sizing: border-box}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlide {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+/* Guest Review title */
+h2 {
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 150px;
+}
+
+/* Total rating box */
+.p1 {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 1150px;
+	background-color: #005CE6;
+	border-radius: 5px;
+	border: 0px #0066ff;
+}
+
+
+div.review	{
+	position: relative;
+}
+
+div.review1	{
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px;
+	padding: 2px;
+	right: 1050px;
+	bottom: -18px;
+	position:absolute;
+	background-color: white;
+}
+
+div.dot	{
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px;
+	padding: 2px;
+	right: 1025px;
+	bottom: 34px;
+	position: absolute;
+	background-color: white;
+}
+
+div.review2	{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px;
+	padding: 2px;
+	right: 920px;
+	bottom: -17px;
+	position: absolute;
+	background-color: white;
+}
+
+div.category	{
+	position: relative;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+
+.table1	{
+	width: 80%;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+div.text	{
+	position: relative;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 150px;
+}
+
+.button	{
+	background-color: #005CE6;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 15px;
+	color: white;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+.reviewPreview	{
+	width: 70%;
+	margin-left: 150px;
+}
+
+.profilepic	{
+	width: 12%;
+	margin-left: 20px;
+	top: 3px;
+	bottom: 2px;
+}
+
+div.images	{
+	position: relative;
+}
+
+div.reviewname	{
+	position: absolute;
+	margin-left: 70px;
+	margin-top: -52px;
+}
+
+div.countries	{
+	position: absolute;
+	margin-left: 70px;
+	margin-top: -32px;
+}
+
+.names	{
+	font-size:15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.country	{
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.revDes1	{
+	font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+.revDes2	{
+	font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+.revDes3	{
+	font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	margin-top: -75px;
+}
+
+/* footer */
+footer
+{
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	background-color:none;
+	background-image:url("../images/gold.jpg");
+}
+
+/*QR code */
+.icon1{
+	display:block;
+	float:left;	
+	margin:30px 10px 10px 20px;
+	width:200px;
+	height:130px;
+	border:0px;
+}
+
+/* contact */
+div.contact{
+
+	float:left;	
+	height:150px;
+	margin:10px 0px 0px 100px;
+	border:0px;
+}
+
+/* address */
+div.address{
+
+	float:right;	
+	height:150px;
+	margin:10px 100px 0px 0px;
+	border:0px;
+	
+}
+
+/* logo */
+.icon2{
+	float:right;	
+	display:block;
+	margin:30px 20px 10px 10px;
+	width:200px;
+	height:130px;
+	border:0px;
+}
+
+/* social media icon box */
+div.socialmedia
+{	
+	border:0px;
+	margin:10px;
+	clear:both;
+	text-align:center;
+	padding:5px;
+}
+
+/* facebook link */
+.facebook
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style: outset;
+	border-color:black;
+}
+
+/* twiter link */
+.twiter
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* insta link */
+.insta
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* google link */
+.google
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* social media icon ul */
+ul.footer1
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0px;
+  display:inline-block;
+
+}
+
+/* social media icon li */
+li.footer1{
+	
+	float:left;
+	padding:10px;
+
+}

@@ -1,0 +1,212 @@
+h3.summary
+{
+	width:600px;
+	border:opx;
+	margin-left:30px;
+	float:left;
+	padding:0px;
+	text-align:left;
+	color:#070768;
+}
+	
+h3.payment
+{
+	width:400px;
+	border: 0px;
+	margin-right:30px;
+	float:right;
+	padding:0px;
+	text-align:left;
+	color:#070768;
+}
+div.reservation
+{
+	height: 160px;
+	width:500px;
+	border: 1px solid #070768;
+	margin:30px;
+	float:left;
+	clear:left;
+	padding:5px;
+	position:relative;
+	color:#070768;
+	background-color:#9ad3ff;
+}
+
+.bookImg
+{
+	height: 140px;
+	width:160px;
+	border: 0px;
+	margin:10px;
+	position:absolute;
+	left:0px;
+}
+
+.details
+{
+	height: 140px;
+	width:300px;
+	border: 1px solid #070768;
+	margin:10px;
+	position:absolute;
+	padding:5px;
+	right:0px;
+	color:#070768;
+	
+}
+.total
+{
+	height:170px;
+	width:400px;
+	border: 1px solid #070768;
+	margin:30px;
+	float:right;
+	clear:right;
+	padding:10px;
+	color:#070768;
+	background-color:#9ad3ff;
+}
+.total td
+{
+	width:200px;
+}	
+.paymentForm
+{
+	clear:both;
+	margin:10px;
+	margin-top:100px;
+}	
+
+form.paymentForm fieldset{
+	margin:20px;
+	border:2px solid #070768;
+	color:#070768;
+}
+
+form.paymentForm label
+{
+	color:#070768;
+}
+
+table.paymentTbl{
+
+  border:0px;
+  padding:10px;
+  margin:20px;
+}
+table.paymentTbl td{
+	
+	width:270px;
+	padding:5px;
+	height:50px;
+  
+}
+
+.card
+{
+	width:100px;
+	height:50px;
+	border-radius:5px;
+}
+
+table.cardSummery
+{
+  width: 90%;
+  border:opx;
+  border-radius:25px;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout:fixed;
+  display:none;
+  
+  
+}
+table.cardTbl td
+{
+	max-width:200px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.box
+{
+	padding:5px;
+	width:200px;
+	border:1px solid #070768;
+	background-color:#9ad3ff;
+}	
+
+.boxS
+{
+	border:1px solid #070768;
+	background-color:#9ad3ff;
+	color:#070768;
+}
+
+.box:focus
+{
+	background-color:#070768;
+	color:white;
+}
+
+.error
+{
+	color:red;
+}
+
+.btn
+{
+	float:right;
+	width:100px;
+	padding:10px;
+	margin:10px;
+	background-color:#070768;
+	color:white;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	border: 0px;
+}
+.previous
+{
+	float:left;
+	width:100px;
+	padding:10px;
+	margin:10px;
+	background-color:#070768;
+	text-decoration:none;
+	color:white;
+	text-align:center;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	border: 0px;
+}
+	
+.recipt
+{
+  background-color:#9ad3ff;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #070768;
+  width: 50%;
+  
+  position:relative;
+}
+
+
+table.recipt td{
+ padding :2px;
+ color:#070768;
+}
+
+.back
+{
+	width:200px;
+	text-align:center;
+	background-color:#070768;
+	border:1px outset white;
+	padding:5px;
+	color:white;
+	text-decoration:none;
+	float:right;
+}

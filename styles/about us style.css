@@ -1,0 +1,423 @@
+#menuabout{
+	background-color:red;
+	color:black;
+	border-radius: 25px;
+}
+
+/* body style*/		
+body{
+	background-color:#ffffe6;
+	background-size : cover;
+	color:black;
+	padding:0px;
+	margin:0;
+	}
+.container{
+	
+}
+
+/* header box*/
+div.menu
+{
+	height:170px;
+	border:0px;
+	padding:0px;
+	margin:0px;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	position:relative;
+	background-color:none;
+	background-image:url("../images/gold.jpg");
+  
+}
+
+/* signIn/SignOut*/	
+div.menu1
+{
+  border:0px;
+  padding: 5px;
+  position:absolute;
+  right:20px;
+  top:20px;
+  margin:auto;
+  
+}
+/* logo*/
+.logo{
+	display: block;
+	margin:20px 20px 20px 20px;
+	width: 200px;
+	height: 124px;
+	position:absolute;
+	left:0px;
+	border:3px outset red;
+}
+
+
+
+/* search form*/
+.search{
+	
+	padding:0px;
+	float:left;
+	margin:10px;
+	border:2px red solid;
+	border-radius:25px;
+}
+
+/* search box*/
+.searchBox
+{
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	margin:0px;
+	border:0px;
+	border-bottom-right-radius:25px;
+	border-top-right-radius:25px;
+	float:right;
+}
+
+/* search btn*/
+.searchBtn{
+	
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	margin:0px;
+	right:0px;
+	border:0px;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	background-color:white;
+}
+/* main menu bar*/
+div.menu2
+{
+  border:2px solid red;
+  padding:2px;
+  right:20px;
+  bottom:20px;
+  border-radius: 25px;
+  position:absolute;
+  background-color: black;
+	
+  
+}
+
+/* main menu bar ul*/
+ul.menu2
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  float:left;
+}
+
+
+
+/* sign In/sign Out ul*/
+ul.menu1
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  float:left;
+  
+}
+
+/* book now button*/
+.book
+{	
+	border:3px outset red;
+	font-size:20px;
+	background-color:black;
+	color:white;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 16px;
+}
+	
+/* main menu bar list*/
+li.menu1{
+	float: left;
+}
+/* sign In/sign Out li*/
+li.menu2{
+	float: left;
+	
+}
+
+/* main menu bar list hyperlinks*/
+
+li a.list{
+	color:white;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 20px;
+	
+}
+
+/* sign In/sign Out list hyperlinks*/
+li a.sign{
+	color:black;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 16px;
+}
+
+/*main menu list link mouse move*/
+.list:hover{
+	background-color:red;
+	color:black;
+	border-radius: 25px;
+}
+
+/* sign In/sign Out list link mouse move */
+.sign:hover{
+	background-color:red;
+	color:white;
+	border:3px solid black;
+}
+
+/* book button  mouse move */
+
+.book:hover{
+	background-color:red;
+	color:black;
+	border:3px solid black;
+}
+
+/* hr */
+hr{	
+	border:1px solid black;
+	clear:both;
+}
+
+/* footer */
+footer
+{
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	background-color:none;
+	background-image:url("../images/gold.jpg");
+}
+
+/*QR code */
+.icon1{
+	display:block;
+	float:left;	
+	margin:30px 10px 10px 20px;
+	width:200px;
+	height:130px;
+	border:0px;
+}
+
+/* contact */
+div.contact{
+
+	float:left;	
+	height:150px;
+	margin:10px 0px 0px 100px;
+	border:0px;
+}
+
+/* address */
+div.address{
+
+	float:right;	
+	height:150px;
+	margin:10px 100px 0px 0px;
+	border:0px;
+	
+}
+
+/* logo */
+.icon2{
+	float:right;	
+	display:block;
+	margin:30px 20px 10px 10px;
+	width:200px;
+	height:130px;
+	border:0px;
+}
+
+/* social media icon box */
+div.socialmedia
+{	
+	border:0px;
+	margin:10px;
+	clear:both;
+	text-align:center;
+	padding:5px;
+}
+
+/* facebook link */
+.facebook
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style: outset;
+	border-color:black;
+}
+
+/* twiter link */
+.twiter
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* insta link */
+.insta
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* google link */
+.google
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* social media icon ul */
+ul.footer1
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0px;
+  display:inline-block;
+
+}
+
+/* social media icon li */
+li.footer1{
+	
+	float:left;
+	padding:10px;
+
+}
+
+/*aboutus image and the paragraph*/
+.about{
+	width:100%;
+	padding:25px 0px;
+	
+}
+.about img{
+	height:auto;
+	width:420px;
+	}
+.about-text{
+	width:550px;
+	color:black;
+}	
+.main{
+	width:1130px;
+	max-width:95%;
+	margin:0 auto;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+}
+.about-text h1{
+	color:black;
+	font-size:40px;
+	text-transform:capitalize;
+	margin-bottom:20px;
+}
+.about-text p{
+	color:black;
+	letter-spacing:1px;
+	line-height:28px;
+	font-size:18px;
+	margin-bottom:45px;
+}
+/*services and facilities*/
+.services-and-facilities{
+	width:1300px;
+	padding:100px 60px;
+	margin:auto;
+}
+.services-and-facilities h1{
+	font-size:40px;
+	text-align:center;
+	font-weight:600;
+	margin-bottom:60px;
+	padding-bottom:15px;
+	position:relative;
+}
+.services-and-facilities h1::after{
+	content:'';
+	position:absolute;
+	width:170px;
+	height:3px;
+	background-color:blue;
+	bottom:0;
+	left:50%;
+	transform:translatex(-50%);
+}
+.content{
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+}
+.card{
+	background-color:#b3ff99 ;/*box color*/
+	width:calc(26%-20px);
+	padding:40px-20px;
+	border-radius:6px;
+	position:relative;
+	cursor:pointer;
+	transition:color 0.5s ease-in;
+}
+/*services and facilities box*/
+.box{
+	color:black;
+	text-align:left;
+}
+.box i{
+	font-size:40px;
+	padding-left:10px;
+	color:#ba7270;
+}
+.box h2{
+	font-size:25px;
+}
+.card::before{
+	content:'';
+	position:absolute;
+	height:100%;
+	width:calc(50%-10px);
+	background-color:red;
+	top:0;
+	left:0;
+	z-index:-1;
+	border-radius:6px;
+	transition:color 0.5s ease;
+}
+card:hover{
+	background-color:transparent;
+}
+.card:hover::before{
+	width:100%;
+}

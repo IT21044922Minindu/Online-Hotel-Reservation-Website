@@ -1,0 +1,306 @@
+/* body style*/		
+body{
+	background-color : white;
+	background-size :cover;
+	padding:0px;
+	margin:0;
+	}
+
+/* header box*/
+div.menu
+{
+	height:170px;
+	border:0px;
+	padding:0px;
+	margin:0px;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	position:relative;
+	background-color:none;
+	background-image:url("../images/gold.jpg");
+}
+
+/* signIn/SignOut*/	
+div.menu1
+{
+  border:0px;
+  padding: 5px;
+  position:absolute;
+  right:20px;
+  top:20px;
+  margin:auto;
+  
+}
+/* logo*/
+.logo{
+	display: block;
+	margin:20px 20px 20px 20px;
+	width: 200px;
+	height: 124px;
+	position:absolute;
+	left:0px;
+	border:3px outset red;
+}
+
+
+
+/* search form*/
+.search{
+	
+	padding:0px;
+	float:left;
+	margin:10px;
+	border:2px red solid;
+	border-radius:25px;
+}
+
+/* search box*/
+.searchBox
+{
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	margin:0px;
+	border:0px;
+	border-bottom-right-radius:25px;
+	border-top-right-radius:25px;
+	float:right;
+}
+
+/* search btn*/
+.searchBtn{
+	
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	margin:0px;
+	right:0px;
+	border:0px;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	background-color:white;
+}
+/* main menu bar*/
+div.menu2
+{
+  border:2px solid red;
+  padding:2px;
+  right:20px;
+  bottom:20px;
+  border-radius: 25px;
+  position:absolute;
+  background-color: black;
+	
+  
+}
+
+/* main menu bar ul*/
+ul.menu2
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  float:left;
+}
+
+
+
+/* sign In/sign Out ul*/
+ul.menu1
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  float:left;
+  
+}
+
+/* book now button*/
+.book
+{	
+	border:3px outset red;
+	font-size:20px;
+	background-color:black;
+	color:white;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 16px;
+}
+	
+/* main menu bar list*/
+li.menu1{
+	float: left;
+}
+/* sign In/sign Out li*/
+li.menu2{
+	float: left;
+	
+}
+
+/* main menu bar list hyperlinks*/
+
+li a.list{
+	color:white;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 20px;
+	
+}
+
+/* sign In/sign Out list hyperlinks*/
+li a.sign{
+	color:black;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 16px;
+}
+
+/*main menu list link mouse move*/
+.list:hover{
+	background-color:red;
+	color:black;
+	border-radius: 25px;
+}
+
+/* sign In/sign Out list link mouse move */
+.sign:hover{
+	background-color:red;
+	color:white;
+	border:3px solid black;
+}
+
+/* book button  mouse move */
+
+.book:hover{
+	background-color:red;
+	color:black;
+	border:3px solid black;
+}
+
+/* hr */
+hr{	
+	border:1px solid black;
+	clear:both;
+}
+
+/* footer */
+footer
+{
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	background-color:none;
+	background-image:url("../images/gold.jpg");
+}
+
+/*QR code */
+.icon1{
+	display:block;
+	float:left;	
+	margin:30px 10px 10px 20px;
+	width:200px;
+	height:130px;
+	border:0px;
+}
+
+/* contact */
+div.contact{
+
+	float:left;	
+	height:150px;
+	margin:10px 0px 0px 100px;
+	border:0px;
+}
+
+/* address */
+div.address{
+
+	float:right;	
+	height:150px;
+	margin:10px 100px 0px 0px;
+	border:0px;
+}
+
+/* logo */
+.icon2{
+	float:right;	
+	display:block;
+	margin:30px 20px 10px 10px;
+	width:200px;
+	height:130px;
+	border:0px;
+}
+
+/* social media icon box */
+div.socialmedia
+{	
+	border:0px;
+	margin:10px;
+	clear:both;
+	text-align:center;
+	padding:5px;
+}
+
+/* facebook link */
+.facebook
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style: outset;
+	border-color:black;
+}
+
+/* twiter link */
+.twiter
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* insta link */
+.insta
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* google link */
+.google
+{	
+	width:50px;
+	height:50px;
+	border-radius:15px;
+	border-style:outset;
+	border-color:black;
+}
+
+/* social media icon ul */
+ul.footer1
+{
+  list-style-type: none;
+  overflow:hidden;
+  margin:0px;
+  display:inline-block;
+
+}
+
+/* social media icon li */
+li.footer1{
+	
+	float:left;
+	padding:10px;
+
+}

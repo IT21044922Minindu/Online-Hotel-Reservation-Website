@@ -1,0 +1,124 @@
+.back
+{
+	width:100px;
+	margin-right:50px;
+	background-color:#070768;
+	border:1px outset white;
+	padding:5px;
+	color:white;
+	float:right;
+	text-decoration:none;
+}
+
+form.packageform{
+	margin:10px;
+	padding:20px;
+}
+
+form.packageform fieldset{
+	padding:50px 0px 50px 0px;
+	margin:20px;
+	color:#070768;
+	border:2px solid #070768;
+}
+
+table.formtbl{
+  width: 90%;
+  border:0px;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+table.formtbl td{
+	padding:5px;
+	width:250px;
+}
+
+form.packageform label
+{
+	color:#070768;
+}
+.box
+{
+	padding:5px;
+	width:250px;
+	border:1px solid #070768;
+	background-color:#9ad3ff;
+}
+
+.detailBox
+{
+	border:1px solid #070768;
+	background-color:#9ad3ff;
+}
+.box:focus, .detailBox:focus
+{
+	
+	background-color:#070768;
+	color:white;
+}
+
+.btn
+{
+	width:100px;
+	margin:5px;
+	background-color:#070768;
+	border:1px outset white;
+	padding:5px;
+	color:white;
+}
+
+.tableBtn
+{
+	width:100px;
+	margin:5px;
+	background-color:#6495ED;
+	border:1px outset blue;
+	padding:5px;
+}
+
+table.editTable {
+	padding:0px;
+	margin:40px;	
+}
+
+table.editTable,table.editTable th,table.editTable td {
+  border: 1px solid #070768;
+}
+table.editTable th {
+  width:250px;
+  padding:5px;
+  text-align: center;
+  vertical-align:middle;
+  background-color:blue;
+  color: white;
+  
+}
+table.editTable td{
+  width:250px;
+  padding:5px;
+  text-align: center;
+  color: black;
+  background-color:white;
+}
+
+table.editTable td.description{
+  max-width:250px;
+  max-height:100px;
+  overflow:auto;
+  white-space:pre;
+}
+
+table.editTable tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+.pdfLink
+{
+	display:block;
+	text-decoration:none;
+	color:black;
+}
